@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:background="@color/lavender">
+    
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="45dp">
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:id="@+id/imageHinh"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/lavender"
+            android:layout_marginLeft="130dp"
+            android:id="@+id/name"
+            android:text="Name"/>
+
+        <TextView
+            android:id="@+id/mota"
+            android:layout_toEndOf="@id/imageHinh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mo Ta"
+            android:layout_marginLeft="130dp"
+            android:textSize="12sp"
+            android:layout_marginTop="60dp"
+            android:textColor="@color/Red"
+            android:textStyle="bold"
+            android:layout_toRightOf="@id/imageHinh"
+            android:layout_below="@id/name"/>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

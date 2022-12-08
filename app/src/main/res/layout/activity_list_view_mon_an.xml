@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ListViewMonAn">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/lavender">
+        <TextView
+            android:id="@+id/lvmonan"
+            android:layout_margin="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_baseline_keyboard_backspace_24"/>
+    </LinearLayout>
+
+    <TextView
+        android:gravity="center"
+        android:textAlignment="center"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:background="@color/lavender"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:text="PIZZA"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_marginTop="150dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="wrap_content">
+
+        <Button
+
+            android:id="@+id/btnThem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="THÊM"/>
+
+        <Button
+            android:id="@+id/btnSua"
+            android:layout_marginLeft="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SỬA"/>
+
+        <Button
+            android:id="@+id/btnxoa"
+            android:layout_marginLeft="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="XOÁ"/>
+    </LinearLayout>
+    <ListView
+        android:layout_marginTop="250dp"
+        android:id="@+id/listviewmonan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

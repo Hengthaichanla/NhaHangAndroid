@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "978396486882",
+    "project_id": "nhahangandroid",
+    "storage_bucket": "nhahangandroid.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:978396486882:android:8559fd537511f0b70652bb",
+        "android_client_info": {
+          "package_name": "com.example.nhahangandroid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "978396486882-ovo9ri674f6d0qrq8u0er943tk8j27i8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeux-8oEYU05xq2hqlPaM33MH-loJ1hEw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "978396486882-ovo9ri674f6d0qrq8u0er943tk8j27i8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
